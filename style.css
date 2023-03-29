@@ -28,8 +28,6 @@ body {
 /* Content Left */
 
 #content-left {
-    /* border: 2px solid black;
-    border-radius: 10px; */
     box-shadow: 5px 5px 3px black;
     padding: 20px;
     background-color: rgb(230, 230, 230);
@@ -70,15 +68,40 @@ body {
 }
 
 #nav-list li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#nav-list li:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* Content Right */
 
 #content-right {
-    border: 2px solid black;
-    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
     width: 1000px;
     background-color: rgb(230, 230, 230);
     flex: 6;
+    padding: 30px;
+}
+
+.edu {
+    margin-bottom: 50px;
+}
+
+.name-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 10px 0 10px 40px;
+}
+
+.name-logo img {
+    height: 50px;
+}
+
+.edu-major {
+    margin-bottom: 10px;
 }
