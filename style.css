@@ -12,7 +12,7 @@
 /* Body */
 
 body {
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(196,160,107);
     height: 100%;
 }
 
@@ -33,8 +33,7 @@ body {
 #content-left {
     box-shadow: 5px 5px 3px black;
     padding: 20px;
-    /* background-color: rgb(185, 208, 226); */
-    background-image: url("./static/Test.png");
+    background-image: url("./static/Notepad.png");
     flex: 2;
 }
 
@@ -43,7 +42,7 @@ body {
     gap: 20px;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     margin-bottom: 20px;
 }
 
@@ -62,7 +61,7 @@ body {
 #about {
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     margin-bottom: 20px;
 }
 
@@ -70,7 +69,7 @@ body {
     list-style: none;
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: solid 1px black;
+    /* border-bottom: solid 1px black; */
     margin-bottom: 20px;
 }
 
@@ -118,15 +117,9 @@ body {
 #content-right {
     box-shadow: 5px 5px 3px black;
     width: 1000px;
-    /* background-color: rgb(185, 208, 226); */
-    background-image: url("./static/Test.png");
+    background-image: url("./static/LooseLeafPaper.png");
     flex: 6;
-    padding: 30px;
-
-
-
-    /* Temporary!@#!@$!@#!@$!@#!$!@#!@#################################### */
-    padding-left: 120px;
+    padding: 30px 65px;
 }
 
 h1 {
@@ -149,7 +142,7 @@ h1 {
     gap: 20px;
     padding-bottom: 35px;
     margin-bottom: 35px;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 
 .project-title {
@@ -161,10 +154,12 @@ h1 {
 .project-desc {
     margin-bottom: 20px;
     font-size: 18px;
+    line-height: 24px;
 }
 
 .project-link {
-    text-align: center;
+    font-weight: bold;
+    color: black;
 }
 
 .project img {
@@ -182,7 +177,7 @@ h1 {
 .edu {
     margin-bottom: 35px;
     padding-bottom: 35px;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 
 .name-logo {
