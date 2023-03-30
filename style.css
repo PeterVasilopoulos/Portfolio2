@@ -167,6 +167,10 @@ h1 {
     text-align: center;
 }
 
+.project img {
+    border: 1px solid black;
+}
+
 /* Education */
 
 #content-right .edu:last-child {
