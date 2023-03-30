@@ -77,6 +77,10 @@ body {
     text-decoration: underline;
 }
 
+#nav-list a {
+    color: black;
+}
+
 #nav-list li:last-child {
     margin-bottom: 0;
 }
@@ -119,6 +123,31 @@ body {
 h1 {
     margin-bottom: 30px;
     text-align: center;
+}
+
+/* Projects */
+
+#content-right .project:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.project-title {
+    font-size: 24px;
+    margin: 0 0 10px 10px;
+}
+
+.project-desc {
+    margin-bottom: 10px;
 }
 
 /* Education */
