@@ -12,7 +12,8 @@
 /* Body */
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
 }
 
 /* Content Block */
@@ -21,9 +22,10 @@ body {
     display: flex;
     width: 1200px;
     justify-content: center;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 20px 0;
     gap: 20px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 /* Content Left */
@@ -31,7 +33,7 @@ body {
 #content-left {
     box-shadow: 5px 5px 3px black;
     padding: 20px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(185, 208, 226);
     flex: 2;
 }
 
@@ -115,7 +117,7 @@ body {
 #content-right {
     box-shadow: 5px 5px 3px black;
     width: 1000px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(185, 208, 226);
     flex: 6;
     padding: 30px;
 }
@@ -136,18 +138,26 @@ h1 {
 .project {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
-    padding: 20px 0;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
     border-bottom: 1px solid black;
 }
 
 .project-title {
     font-size: 24px;
-    margin: 0 0 10px 10px;
+    font-weight: bold;
+    margin: 0 0 20px 10px;
 }
 
 .project-desc {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.project-link {
+    text-align: center;
 }
 
 /* Education */
@@ -155,7 +165,7 @@ h1 {
 #content-right .edu:last-child {
     margin-bottom: 0px;
     padding-bottom: 0;
-    border: 0;
+    border-bottom: 0;
 }
 
 .edu {
