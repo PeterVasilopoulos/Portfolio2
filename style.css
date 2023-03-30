@@ -23,6 +23,7 @@ body {
     justify-content: center;
     margin: 20px auto;
     gap: 20px;
+    align-items: center;
 }
 
 /* Content Left */
@@ -65,16 +66,44 @@ body {
 #nav-list {
     list-style: none;
     text-align: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1px black;
+    margin-bottom: 20px;
 }
 
 #nav-list li {
     margin-bottom: 20px;
     font-size: 20px;
+    text-decoration: underline;
+}
+
+#nav-list li:last-child {
+    margin-bottom: 0;
 }
 
 #nav-list li:hover {
     font-weight: bold;
     cursor: pointer;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#contact-items li {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact-items li:last-child {
+    margin-bottom: 0;
 }
 
 /* Content Right */
@@ -87,21 +116,50 @@ body {
     padding: 30px;
 }
 
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Education */
+
+#content-right .edu:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    border: 0;
+}
+
 .edu {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
 }
 
 .name-logo {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin: 10px 0 10px 40px;
+    margin: 10px 0 20px 30px;
 }
 
 .name-logo img {
     height: 50px;
 }
 
+.name-logo p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .edu-major {
     margin-bottom: 10px;
+    font-size: 18px;
 }
+
+.edu-dates {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+/* Utilities */
+
