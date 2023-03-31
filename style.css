@@ -248,5 +248,12 @@ h1 {
     font-weight: bold;
 }
 
+/* Parkour */
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
 /* Utilities */
 
